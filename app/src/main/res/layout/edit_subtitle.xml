@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/editSubtitleText"
+        android:textColor="@color/black"
+        android:layout_width="0dp"
+        android:layout_weight="0.8"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"/>
+    <ImageView
+        android:id="@+id/editSubtitleDone"
+        android:layout_width="0dp"
+        android:layout_weight="0.2"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_done"/>
+</LinearLayout>

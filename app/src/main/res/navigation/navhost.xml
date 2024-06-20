@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navhost"
+    app:startDestination="@id/videosFragment">
+
+    <fragment
+        android:id="@+id/videosFragment"
+        android:name="com.wrongcode.captionwizard.ui.fragments.VideosFragment"
+        tools:layout="@layout/fragment_videos" />
+    <fragment
+        android:id="@+id/subtitlesFragment"
+        android:name="com.wrongcode.captionwizard.ui.fragments.SubtitlesFragment"
+        tools:layout="@layout/fragment_subtitles" />
+</navigation>

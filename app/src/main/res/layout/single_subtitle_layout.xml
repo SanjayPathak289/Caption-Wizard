@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/subtitlesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ellipsize="none"
+        android:textSize="12sp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:padding="1dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@drawable/custom_subtitle_box"/>
+</LinearLayout>
