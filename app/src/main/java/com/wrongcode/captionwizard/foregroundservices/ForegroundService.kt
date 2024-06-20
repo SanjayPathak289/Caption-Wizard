@@ -65,6 +65,7 @@ class ForegroundService: Service() {
         return super.onStartCommand(intent, flags, startId)
     }
 
+    @SuppressLint("ForegroundServiceType")
     private fun start(intent: Intent?) {
         val context = this@ForegroundService
         serviceScope.launch {
