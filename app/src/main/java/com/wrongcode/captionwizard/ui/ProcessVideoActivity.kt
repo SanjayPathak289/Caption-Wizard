@@ -104,7 +104,7 @@ class ProcessVideoActivity : AppCompatActivity() {
                     loaderLayout.visibility = View.VISIBLE
                     backgroundLoaderView.visibility = View.VISIBLE
                     val duration = getMediaLength(userFileUri)
-                    startTimer(duration)
+                    startTimer(duration * 1.5.toLong())
                     CoroutineScope(Dispatchers.IO).launch {
                         Intent(this@ProcessVideoActivity, ForegroundService::class.java).also {
                             it.action = ForegroundService.Actions.START.toString()
