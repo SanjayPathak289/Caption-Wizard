@@ -71,7 +71,13 @@
             android:layout_alignBottom="@id/frameLayout"
             android:layout_marginBottom="30dp"
             android:textSize="26sp"
-            android:textColor="@color/white"/>
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingStart="7dp"
+            android:paddingEnd="7dp"/>
 
         <ProgressBar
             android:id="@+id/videoEditorLoader"
